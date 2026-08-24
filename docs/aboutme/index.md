@@ -1,2 +1,2 @@
 #About Me
-This is how to edit
+I am a Mech E major and I love sports and daily activities. 
