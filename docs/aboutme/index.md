@@ -1,5 +1,7 @@
 #About Me
 Ameer Alhaddad
+
+
 I am a Mech Engineering student at the University of North Carolina at Charlotte with a strong interest in engineering design, problem solving, and the way technical decisions are applied to real world projects. I was drawn to mechanical engineering because it combines analytical thinking with fun practical design that pushes human ingenuity and ability. I enjoy understanding how systems work, identifying problems, and developing solutions that are both technically sound and realistic to implement. My education and professional experiences have helped me see engineering as more than solving equations. It is also about making informed decisions, communicating those decisions clearly, and understand how individual components affect an entire system. 
 
 Through engineering internships and technical work, I have gained experience with design software and engineering workflows. Including AutoCAD, Microstation, Open roads, solid works and other engineering tools. My experience working with transportation and drainage projects has also exposed me to the coordination required between engineering disciplines. these experiences have strengthened my attention to detail and shown me the importance of accuracy, organization, and communication when producing engineering work that people rely on. 
