@@ -38,7 +38,7 @@ I designed my homepage so that a visitor can immediately understand that this po
 
 ### 2. One Intentional Customization
 
-I changed the website color scheme to use darker blue and neutral colors. This change improves readability and gives the portfolio a more professional appearance that is appropriate for engineering documentation. The default color scheme was more visually generic and did not separate headings, navigation, and technical content as clearly.
+I changed the assignment tab color scheme to use blue instead of green. This change improves readability and gives the portfolio a more professional appearance that is appropriate for engineering documentation. The default color scheme was more visually generic and did not separate the tab content as clearly.
 
 ### 3. Documentation Standard
 
