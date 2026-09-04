@@ -120,8 +120,11 @@ The final design combines the truss analysis, member sizing, pin analysis, and C
 <img width="806" height="326" alt="Screenshot 2026-09-03 at 8 07 13 PM" src="https://github.com/user-attachments/assets/a25c0721-6480-4202-822b-2b44034eaa52" />
 
 
-### CAD Files
+### CAD File
 
+The completed SolidWorks model can be downloaded below:
+
+[Download A2 SolidWorks Truss](Lecture%20Soph%20des%20A2.SLDPRT)
 
 ---
 
