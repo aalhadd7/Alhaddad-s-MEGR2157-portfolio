@@ -163,9 +163,33 @@ A design modification that could further reduce the likelihood of pin shear fail
 
 ## AI Use
 
-AI was used as a supporting tool to help explain the truss and pin analysis process, organize the engineering documentation, and provide guidance for creating the SolidWorks model. The calculations, free body diagrams, selected geometry, and CAD model are documented through my own handwritten work and SolidWorks screenshots. AI was used to support the documentation and design process rather than replace the required engineering work.
+AI was used as a supporting tool to help troubleshoot SolidWorks, understand the engineering calculations, and properly submit my CAD work through GitHub. I completed the handwritten calculations, design decisions, and final CAD model myself.
 
-### Exact AI Prompts and Responses
+### Prompt 1 – SolidWorks Technique
 
-**[INSERT EXACT AI PROMPTS AND RESPONSES OR SCREENSHOTS HERE]**
+**Prompt:**  
+"Ok give me a step by step by step on how to do this part on SolidWorks 2026."
+
+**How I used the response:**  
+I used the response as a guide for creating the truss and pin geometry in SolidWorks. I then modeled the parts using the dimensions determined from my own calculations.
+
+---
+
+### Prompt 2 – GitHub CAD File Upload
+
+**Prompt:**  
+"How can I get the file into my coding. It doesn't take it."
+
+**How I used the response:**  
+I used the response to understand that the SolidWorks file should be stored in my GitHub repository and linked through the Markdown page rather than embedded as an image. I then added my SolidWorks file to the A02 folder and created a download link for the CAD file.
+
+---
+
+### Prompt 3 – Written Calculation
+
+**Prompt:**  
+"Where did you get 42500?"
+
+**How I used the response:**  
+I used the response to check an intermediate value in my pin calculations. The explanation helped me understand how the allowable shear stress was obtained from the given shear yield strength and factor of safety instead of simply using the value without understanding its source.
 
