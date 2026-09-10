@@ -101,4 +101,4 @@ Before changing the design, my prediction was that increasing the load to 450 lb
 
 ## CAD File
 
-(Parametric-and-FEA.SLDPRT)
+[Download the SolidWorks CAD File](Parametric-and-FEA.SLDPRT)
