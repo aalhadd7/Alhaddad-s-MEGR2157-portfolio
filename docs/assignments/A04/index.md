@@ -109,4 +109,4 @@ The total time required to complete the calculations, CAD model, revisions, and 
 
 Before completing the design, I reviewed examples of motor mounting brackets to better understand common mounting arrangements and methods used to reinforce L-shaped brackets.
 
-**[INSERT YOUR MOTOR MOUNT RESEARCH LINKS HERE]**
+(https://www.omc-stepperonline.com/brushed-24v-dc-gear-motor-3-6kg-cm-46rpm-w-99-5-1-planetary-gearbox-pa28-28245800-g100)
