@@ -75,6 +75,7 @@ The completed SolidWorks part file can be downloaded below.
 
 **[INSERT LINK TO .SLDPRT CAD FILE HERE]**
 
+
 ## MEGR 2157 - Engineering Drawing
 
 For the MEGR 2157 portion of the assignment, I created a multiview engineering drawing from the finished CAD model. The drawing includes the required front, top, right-side, and isometric views. Center marks were added to the circular features, and hole callouts were used for the Ø3.4 mm mounting holes. Important dimensions such as the 17 mm thickness, 45 mm width, 50 mm dimensions, and Ø18.5 mm center opening were included so the part can be understood and manufactured from the drawing.
@@ -85,9 +86,9 @@ The title block identifies the part as the Motor Mount, lists PLA as the materia
 <img width="756" height="583" alt="Screenshot 2026-09-16 at 10 23 27 PM" src="https://github.com/user-attachments/assets/0f202568-a46a-42c8-b59d-3c5913a3cb76" />
 
 
-### Engineering Drawing PDF
+### MEGR 2157 Engineering Drawing
 
-**[INSERT LINK TO 2157 DRAWING PDF HERE]
+[View/Download Engineering Drawing PDF](Motor_Mount_Drawing.pdf)
 
 
 ## Problems and Changes During the Design
