@@ -1,6 +1,6 @@
 # Motor Mount Design
 
-The goal of this assignment was to design a motor mount for a 24 V brushed DC gear motor while considering both bending stress and deflection. The mount was designed using PLA with a safety factor of 3 and a maximum allowable deflection of 0.30 mm. I first completed the beam calculations for the motor attachment feature and wall attachment feature, then used those results to create the final SolidWorks model. The final design was also used to create the required multiview engineering drawing for MEGR 2157.
+The goal of this assignment was to design a motor mount for a 24 V brushed DC gear motor while considering both bending stress and deflection. The mount was designed using PLA with a safety factor of 3 and a maximum allowable deflection of 0.30 mm. I first completed the beam calculations for the motor attachment feature and wall attachment feature, then used those results to create the final SolidWorks model. The final design was also used to create the required multiview engineering drawing for the MEGR 2157 section.
 
 ## Question 1 - Feature 1: Motor Attachment
 
@@ -10,7 +10,7 @@ For the stress analysis, I used the rectangular beam bending equations and solve
 
 ### Hand Calculations - Question 1
 
-<img width="663" height="856" alt="Screenshot 2026-09-16 at 10 30 28 PM" src="https://github.com/user-attachments/assets/58054c28-e81c-4a7a-8d6e-8f552f05367a" />
+<img width="588" height="856" alt="Screenshot 2026-09-16 at 10 30 28 PM" src="https://github.com/user-attachments/assets/58054c28-e81c-4a7a-8d6e-8f552f05367a" />
 
 <img width="588" height="762" alt="Screenshot 2026-09-16 at 10 31 18 PM" src="https://github.com/user-attachments/assets/f7d3e74f-b4a8-4f9d-9fd3-b70dfbe664e9" />
 
