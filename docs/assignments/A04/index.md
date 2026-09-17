@@ -73,7 +73,7 @@ The final material was set as PLA in SolidWorks. I created a custom PLA material
 
 The completed SolidWorks part file can be downloaded below.
 
-**[INSERT LINK TO .SLDPRT CAD FILE HERE]**
+[Download the SolidWorks CAD File](Assignment%204%20CAD.SLDPRT)
 
 
 ## MEGR 2157 - Engineering Drawing
@@ -86,9 +86,9 @@ The title block identifies the part as the Motor Mount, lists PLA as the materia
 <img width="756" height="583" alt="Screenshot 2026-09-16 at 10 23 27 PM" src="https://github.com/user-attachments/assets/0f202568-a46a-42c8-b59d-3c5913a3cb76" />
 
 
-### MEGR 2157 Engineering Drawing
+### SolidWorks Drawing File
 
-[View/Download Engineering Drawing PDF](Motor_Mount_Drawing.pdf)
+[Download the SolidWorks Drawing File](Assignment%204%20Drawing.SLDDRW)
 
 
 ## Problems and Changes During the Design
