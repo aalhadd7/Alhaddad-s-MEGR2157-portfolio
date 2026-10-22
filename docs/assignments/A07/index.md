@@ -201,7 +201,7 @@ After completing the second simulation, I compared the results with the first ru
 | Maximum Deflection (mm) | 7.150 × 10⁻⁷ | 6.781 × 10⁻⁷ | 5.16% |
 | Mass (g) | 47.71 | 47.71 | 0% |
 | Minimum Safety Factor | 3.183 × 10⁴ | 3.189 × 10⁴ | 0.19% |
-| Number of Elements | 1,402 | 13,256 | — |
+| Number of Elements | 1,402 | 13,256 |
 
 To calculate the percentage change, I used the difference between the new and previous results, divided by the previous result, and multiplied by 100.
 
