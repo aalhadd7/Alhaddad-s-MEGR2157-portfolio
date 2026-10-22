@@ -140,11 +140,101 @@ On this Lab I spent approximately 5 hours. With majority of the work begin alrea
 
 The SolidWorks CAD files for the final bracket design is available below.
 
-
-- **Design III – Final Modified Bracket:** [Insert CAD download link]
+- [Download Bracket CAD File](Assignment%206_CAD_3.SLDPRT)
 
 ---
 
-## Part 2: MEGR 2157 – Link FEA
+# Part 2: MEGR 2157 – Link FEA
+
+### Introduction
+
+For the second part of this assignment, I created a link component in SolidWorks and performed Finite Element Analysis (FEA) to evaluate its strength and stiffness. The goal was to understand how the link responds to an applied force and how changing the mesh size affects the simulation results. Similar to the bracket portion, I analyzed the maximum stress, strain, deflection, and safety factor while checking for the required 7% mesh convergence.
+
+### Link Design and Simulation Setup
+
+I started by creating a simple connecting link with two circular holes, one at each end. I used 6061-T6 aluminum, the same material from the bracket portion of the assignment. After finishing the model, I created a static stress study in SolidWorks Simulation.
+
+For the simulation, I applied fixed geometry to the inside surface of the smaller hole and a 1 N force to the inside surface of the larger hole. This allowed me to examine how the link behaves when one end is supported and the other experiences a load.
+
+
+
+### First Simulation – Coarse Mesh
+
+I began by generating a coarse mesh and running the first simulation. The mesh contained 1,402 elements, and I recorded the maximum von Mises stress, strain, deflection, and minimum safety factor.
+
+The first run produced a maximum stress of 8.639 × 10³ N/m², a maximum strain of 9.705 × 10⁻⁸, and a maximum deflection of 7.150 × 10⁻⁷ mm. The minimum safety factor was 3.183 × 10⁴, and the mass of the link was 47.71 g.
+
+<img width="998" height="468" alt="Unknown-20" src="https://github.com/user-attachments/assets/d0f8ec23-7cb4-4e12-a50c-6aad9878ec75" />
+
+
+<img width="2048" height="739" alt="Unknown-21" src="https://github.com/user-attachments/assets/1513a4f4-4436-49cc-9346-c854557f1fc8" />
+
+
+<img width="2048" height="769" alt="Unknown-22" src="https://github.com/user-attachments/assets/dffeef1c-d436-454d-ac3c-2f4454cd0a01" />
+
+
+<img width="2048" height="844" alt="Unknown-23" src="https://github.com/user-attachments/assets/4681eb0b-41c5-4117-ba82-6c3ea62c98eb" />
+
+
+Looking at the stress plot, I noticed that the highest stress occurred around the larger hole where the force was applied. Most of the middle section experienced relatively low stress. The displacement plot also showed greater movement near the loaded end, while the fixed end remained restrained.
+
+### Second Simulation – Finer Mesh
+
+After recording the first results, I refined the mesh to determine whether the calculated values would change significantly. The second mesh contained 13,256 elements, giving the simulation more elements to represent the geometry of the link.
+
+<img width="2048" height="861" alt="Unknown-24" src="https://github.com/user-attachments/assets/9217c12b-65de-4004-a44d-3ff54c98dbd3" />
+
+
+The second simulation produced a maximum von Mises stress of 8.623 × 10³ N/m², a maximum strain of 9.944 × 10⁻⁸, and a maximum deflection of 6.781 × 10⁻⁷ mm. The minimum safety factor was 3.189 × 10⁴, while the mass remained 47.71 g.
+
+<img width="670" height="422" alt="Screenshot 2026-10-21 at 11 07 21 PM" src="https://github.com/user-attachments/assets/8f34041e-5896-4536-a2c9-e989ac75f92d" />
+
+
+### Mesh Convergence Results
+
+After completing the second simulation, I compared the results with the first run to determine whether they were within the required 7% difference.
+
+| Measurement | Run 1 – Coarse | Run 2 – Finer | % Change |
+|---|---|---|---|
+| Maximum Stress (N/m²) | 8.639 × 10³ | 8.623 × 10³ | 0.19% |
+| Maximum Strain | 9.705 × 10⁻⁸ | 9.944 × 10⁻⁸ | 2.46% |
+| Maximum Deflection (mm) | 7.150 × 10⁻⁷ | 6.781 × 10⁻⁷ | 5.16% |
+| Mass (g) | 47.71 | 47.71 | 0% |
+| Minimum Safety Factor | 3.183 × 10⁴ | 3.189 × 10⁴ | 0.19% |
+| Number of Elements | 1,402 | 13,256 | — |
+
+To calculate the percentage change, I used the difference between the new and previous results, divided by the previous result, and multiplied by 100.
+
+All the results were within the required 7% difference. The stress changed by only 0.19%, the deflection changed by 5.16%, and the safety factor changed by 0.19%. Since the results met the convergence requirement, I used the second run as my final mesh for the original link.
+
+### Results and Observations
+
+After comparing both simulations, I noticed that increasing the number of mesh elements did not significantly change the overall results. The stress remained concentrated around the larger hole where the load was applied, and the smaller hole stayed restrained by the fixed geometry.
+
+The minimum safety factor was approximately 31,890, indicating that the link was well below the material's yielding limit under the applied 1 N load. The deflection was also extremely small. These results showed that the original link was relatively stiff and had a large margin against yielding under the simulated conditions.
+
+### Mistakes and Challenges
+
+One challenge I encountered was determining where to apply the fixture and force. Since the link has two holes, I needed to decide how to represent its support and loading conditions. I fixed one hole and applied the load to the other before running the simulation.
+
+Another challenge was understanding the effect of mesh refinement. I initially started with a coarse mesh, but I needed another simulation to check whether the results were accurate enough to use. After increasing the number of elements, I compared the values and found that the results were within the required 7% difference.
+
+### Lessons Learned
+
+This part of the assignment helped me understand how FEA can be applied to a connecting link. I learned that the location of the applied load and the fixed geometry influences how stress and displacement are distributed throughout a component.
+
+I also learned that using more mesh elements does not always result in a major change in the calculated values. My second simulation had significantly more elements than the first, but the maximum stress and safety factor changed by less than 1%. This showed me why checking convergence is important instead of assuming that the finest possible mesh is always necessary.
+
+Overall, analyzing the link helped me better understand how SolidWorks Simulation can be used to evaluate a component's mechanical performance before manufacturing it.
+
+### Time Spent
+
+**[Insert actual time spent modeling the link, running the simulations, and documenting the results]**
+
+### CAD File
+
+The SolidWorks CAD file for the link is available below.
+
+[Download Link CAD File](link_1.SLDPRT)
 
 
