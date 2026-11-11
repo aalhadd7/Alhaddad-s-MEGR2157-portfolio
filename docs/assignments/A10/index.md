@@ -91,7 +91,7 @@ Using the thread bearing and bending stress equations from *Shigley's Mechanical
 
 ---
 
-## Sources and Part Links
+## Sources and Part Links (Ameer Alhaddad)
 
 
 ### Selected Components
@@ -110,6 +110,101 @@ Using the thread bearing and bending stress equations from *Shigley's Mechanical
 - [Roton Products – Friction Coefficients](https://www.roton.com/screw-university/screw-actions/)
 - [Shigley's Mechanical Engineering Design – Chapter 8, Thread Stress and Load Distribution](https://eng.sut.ac.th/me/2014/document/MachineDesign1/document/Ch_8.pdf)
 - [Rockford Ball Screw – Reference ACME Screw Dimensions](https://dpk3n3gg92jwt.cloudfront.net/domains/rockford.ballscrew/pdf/RBS_3-4_ACME_PG1.pdf)
+
+
+## Crosshead Design (Jackson Dowdle)
+### Crosshead Design (Stress/Strength)
+<a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/KYJQ2Wgk/A10stress.png" alt="A10stress"></a><br><br>
+
+### Crosshead Design (Deflection)
+
+<a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/yNvnHGSD/A10deflection.png" alt="A10deflection"></a><br><br>
+
+It was observed that deflection governed the crosshead, so the thickness was chosen based off of the deflection. In the center is where the moment is the highest, so as a design, I chose to add a small 12.7 mm (½ in) hole in the center of the crosshead to give some relief to the bar. 
+
+### Crosshead Multiview
+
+<a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/ZqVjSQy9/A10multiview.png" alt="A10multiview"></a><br><br>
+
+## Tabulation of Cost
+
+The tabulation was based off of the 1018 steel crosshead and lead screw along with the 932 bronze bearing flange nut.
+
+| Item Number | Quantity | Name | Cost/Item | Cost | Purchase Link |
+|---|---|---|---|---|---|
+| 1 | 2 | Precision Acme flange nut, 3/4"-10, 932 bearing bronze (97790A140) | $201.69 | $403.38 | https://www.mcmaster.com/97790A140/ |
+| 2 | 2 | Precision Acme lead screw, 3/4"-10, 1018 low-carbon steel, 2 ft long (minimum 18 in) | $76.18 | $152.36 | https://www.mcmaster.com/99030A030/|
+| 3 | 1 | Multipurpose 1018 low-carbon steel bar, 3/4 in thick × 3 in wide, 2 ft long (crosshead stock) | $74.94 | $74.94 | https://www.mcmaster.com/8910K37-9143K544/ |
+| | | **Total Cost** | | **$630.68** | |
+
+
+
+
+
+
+
+### CAD design of machine(Dillon B.)
+
+
+#### Assembly of machine
+
+
+ <a href="https://postimg.cc/21K4BP4Z" target="_blank"><img src="https://i.postimg.cc/FK9GwvzD/Screenshot-2026-11-11-142647.png" alt="Screenshot-2026-11-11-142647"></a><br><br>
+<a href="https://postimg.cc/TK4rWZrV" target="_blank"><img src="https://i.postimg.cc/xd0gBQ84/Screenshot-2026-11-11-143618.png" alt="Screenshot-2026-11-11-143618"></a><br><br>
+<a href='https://postimg.cc/9rxxJgdQ' target='_blank'><img src='https://i.postimg.cc/sgztft17/Screenshot-2026-11-11-174625.png' border='0' alt='Screenshot-2026-11-11-174625'></a>
+
+#### ASSM file
+[leadframedesign.zip](https://github.com/user-attachments/files/34719228/leadframedesign.zip)
+
+
+
+#### Lessons Learned
+(Dillon B.)   I learned how to further the efficiency and cost of a part by eliminating unnecessary material and where to add more. A thicker material isn't the only fix to a weak part. I added material to the thickness of the part and then cut the original weight of the part in half by removing material in the center that didn't support much load. My portion of this assignment took my roughly 5 hours.
+
+
+
+### 2157 section(Dillon B.)
+
+#### Loads on crosshead
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/qBCYsk3X/Screenshot-2026-11-11-160725.png' border='0' alt='Screenshot-2026-11-11-160725'></a>
+
+
+#### Initial iteration of FEA
+##### Von misses stress diagram
+<a href='https://postimg.cc/5XCwLspD' target='_blank'><img src='https://i.postimg.cc/jS8ZV9fq/Screenshot-2026-11-11-161203.png' border='0' alt='Screenshot-2026-11-11-161203'></a>
+
+##### Deflection Diagram
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/x8SPyVw7/Screenshot-2026-11-11-162128.png' border='0' alt='Screenshot-2026-11-11-162128'></a>
+
+##### Safety factor Diagram
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/VLmRJ1BP/Screenshot-2026-11-11-162118.png' border='0' alt='Screenshot-2026-11-11-162118'></a>
+
+#### Reflection and changes
+After the first interaction I increased the overall thickness of the part from 0.75in to 1.0in to account for a high stress concentration at the center. Then I removed material from the section between the center and flange mount. The increase in thickness added a decent amount of weight and increased the safety factor to 4.9 which is above our threshold. The removal of the material nearly cut the weight in half while still keeping the 4.9 safety factor. I also added a fillet to the edges to decrease the amount of unneeded material.
+
+
+
+#### 2nd iteration of FEA
+<a href='https://postimg.cc/rKv4VScH' target='_blank'><img src='https://i.postimg.cc/Nj0kx4nQ/Screenshot-2026-11-11-170105.png' border='0' alt='Screenshot-2026-11-11-170105'></a>
+
+
+##### Von misses stress diagram
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/nrkq4jKS/Screenshot-2026-11-11-170344.png' border='0' alt='Screenshot-2026-11-11-170344'></a>
+
+##### Deflection Diagram
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/Yqd1jFCG/Screenshot-2026-11-11-170331.png' border='0' alt='Screenshot-2026-11-11-170331'></a>
+
+##### Safety factor Diagram
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/52GLSMvF/Screenshot-2026-11-11-170453.png' border='0' alt='Screenshot-2026-11-11-170453'></a>
+
+#### Reflection
+This analysis showed that the weakest point of the part is now the interior of the removed section of material. Despite the change, it is still well above all parameters and no further action is needed.
+
+#### Crosshead and drawing file
+[crossheadFEA.zip](https://github.com/user-attachments/files/34719260/crossheadFEA.zip)
+
+#### Base created to hold screws and frame
+[basetop.zip](https://github.com/user-attachments/files/34719335/basetop.zip)
 
 
 
