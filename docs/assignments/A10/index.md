@@ -100,14 +100,15 @@ Using the thread bearing and bending stress equations from *Shigley's Mechanical
 
 ### Material Properties
 
-- [AISI 1018 Steel – Mechanical Properties (MatWeb)](https://www.matweb.com/search/datasheet_print.aspx?matguid=e589db903f884e619e18888723fa0ebd)
+- [AISI 1018 Steel – Mechanical Properties]([https://www.matweb.com/search/datasheet_print.aspx?matguid=e589db903f884e619e18888723fa0ebd](https://www.rootanalysis.co.uk/materials/steel/aisi-1018))
+- 
 - [C93200 Bronze – Yield Strength (St. Paul Foundry)](https://www.stpaulfoundry.com/AlloySpecs/alloy_specifications_data_page.aspx?id=C93200)
 
 ### Engineering Calculations and References
 
 - [Engineering Mechanics: Statics – Chapter 6, Section 6/5, Screws](https://studylib.net/doc/27042527/j.l.-meriam--l.g.-kraige--j.-n.-bolton---engineering-mech)
 - [Roton Products – Friction Coefficients](https://www.roton.com/screw-university/screw-actions/)
-- [Shigley's Mechanical Engineering Design – Chapter 8, Thread Stress and Load Distribution](https://eng.sut.ac.th/me/2014/document/MachineDesign1/document/Ch_8.pdf)
+- [Shigley's Mechanical Engineering Design – Chapter 8, Thread Stress and Load Distribution]([https://eng.sut.ac.th/me/2014/document/MachineDesign1/document/Ch_8.pdf](https://www.mechfamily-ju.com/storage/images/files/file_1731443577xeDvd.pdf))
 - [Rockford Ball Screw – Reference ACME Screw Dimensions](https://dpk3n3gg92jwt.cloudfront.net/domains/rockford.ballscrew/pdf/RBS_3-4_ACME_PG1.pdf)
 
 
