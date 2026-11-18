@@ -120,23 +120,25 @@ The bracket load capacity still needs verification.
 | [Bronze Flange Nut](https://www.mcmaster.com/97790A140) | 97790A140 | 2 |
 
 
+### SolidWorks CAD Files
 
-[INSERT LINK: Complete SolidWorks Assembly / Pack and Go]
+**Motor Mount (Designed in SolidWorks)**
+
+[Download Motor Mount](leadframedesign/Motor%20mount.SLDPRT)
+
+**Complete Tensile Tester Assembly (Pack and Go)**
+
+[Download Complete Assembly](leadframedesign/leadframedesign.SLDASM)
+
 
 ---
 
 ## 6. Problems and Changes
 
-Initially, I designed the motor mount with separate standoffs. I later changed it to one long mounting plate to support both motors.
-
-I also had trouble aligning the motor shafts with the leadscrews because the motor mounting holes were offset from the shaft center. I corrected the mounting-hole positions and checked them in SolidWorks.
-
-Another issue was that the motor shafts and leadscrews had different diameters, requiring a modified shaft connection.
+Initially, I designed the motor mount with separate standoffs. I later changed it to one long mounting plate to support both motors. I also had trouble aligning the motor shafts with the leadscrews because the motor mounting holes were offset from the shaft center. I corrected the mounting-hole positions and checked them in SolidWorks. Another issue was that the motor shafts and leadscrews had different diameters, requiring a modified shaft connection.
 
 ## 7. Lessons Learned
 
-I learned how to select a motor using torque and speed requirements, calculate bearing stress for a motor mount, and analyze torsional shear stress in a coupling.
+I learned how to select a motor using torque and speed requirements, calculate bearing stress for a motor mount, and analyze torsional shear stress in a coupling. I also learned how important accurate mounting-hole dimensions are when assembling downloaded parts in SolidWorks.
 
-I also learned how important accurate mounting-hole dimensions are when assembling downloaded parts in SolidWorks.
-
-**Time Spent:** [Enter your actual time]
+**Time Spent:** 8 hours
